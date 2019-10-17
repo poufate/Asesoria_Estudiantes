@@ -16,8 +16,7 @@ $(document).on("click","#Login",function(e) {
 
 $(document).on("click","#RegistroM",function(e) {
                     
-         var container = $("#caja");
-                            
+         var container = $("#caja2");   
             if (!container.is(e.target) && container.has(e.target).length === 0) { 
                $("#RegistroM").fadeOut(1000);             
             }

@@ -9,8 +9,11 @@ body{
 	background: #424141;
 	height: auto;
 }
-#barra>div>input,#barra>div>a{
+#barra>div>input{
 	margin-top: 1%;
+}
+#barra>div>a{
+margin-top: 4%;	
 }
 #busqueda{
 	width: 60%;
@@ -35,7 +38,7 @@ body{
 	left: 0;
 	right: 0;
 	width: 40%;
-
+	min-height: 40%;
 	background-color:white;
 	margin-top: 5%;
 	border-radius: 6px;
@@ -46,9 +49,11 @@ body{
 	padding-bottom: 6em;
 }
 #logo{
+
 	height: 50px;
 	display: inherit;
 	margin: auto;
+	margin-top:4%; 
 }
 #adicional{
 	height: 20px;
@@ -58,9 +63,17 @@ body{
 	height: inherit;
 }
 #paneliz{
+
 	background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9b/The.Matrix.glmatrix.2.png);
 	border-left: 1px solid white;
 border-top:  1px solid white;
 border-bottom:  1px solid white;
 border-radius: 6px;
+height: 300px;
+}
+input[type="email"],input[type="password"],input[type="text"],input[type="number"]{
+	width: 80%;
+}
+#datosEntrada{
+	margin: auto;
 }
